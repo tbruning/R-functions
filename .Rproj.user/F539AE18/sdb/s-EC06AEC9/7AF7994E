@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "bayes <- function(prior, hypo_true, hypo_false) {\n    post <- (prior * hypo_true)/ ((prior * hypo_true) + hypo_false * (1-prior))\n    print(round(post, 3))\n}\n## prior is the base rate\n## cond_probability is how likely is an event given that something related has occured. The opposite of the posteriori\n## likely is \nprior <- .014\nhypo_true <- .75\nhypo_false <- .75\n\nx <- bayes(prior, hypo_true, hypo_false)\n\nx\n",
+    "created" : 1455986131596.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1280016593",
+    "id" : "7AF7994E",
+    "lastKnownWriteTime" : 1455985856,
+    "last_content_update" : 1455985856,
+    "path" : "~/Downloads/r_progs/r_functions/bayes.R",
+    "project_path" : "bayes.R",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

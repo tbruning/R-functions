@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "## Pass numeric data and return the coefficient of variation (CV)\n\ncv <- function(cv_data) {\n    cv_output <- round((sd(cv_data)/mean(cv_data)) * 100, 2)\n}\n\n",
+    "created" : 1455986220988.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1906114606",
+    "id" : "8D7D507B",
+    "lastKnownWriteTime" : 1455987635,
+    "last_content_update" : 1455987635315,
+    "path" : "~/Downloads/r_progs/r_functions/cv.R",
+    "project_path" : "cv.R",
+    "properties" : {
+    },
+    "relative_order" : 3,
+    "source_on_save" : true,
+    "source_window" : "",
+    "type" : "r_source"
+}
