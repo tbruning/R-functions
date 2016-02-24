@@ -2,7 +2,7 @@
 
 New functions to use throughout   
 Currently:   
-- add titles to ggvis   
-- bayes   
-- brier scores   
-- coeffecient of variation
+- add titles to ggvis (add_title)   
+- bayes   (bayes)   
+- brier scores   (brier)   
+- coeffecient of variation (cv)   
